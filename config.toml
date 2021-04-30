@@ -1,0 +1,37 @@
+baseURL = "https://aeei.io"
+title = "💩"
+theme = "etch"
+languageCode = "ko-KR"
+enableInlineShortcodes = true 
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  copyright = "Copyright © 2021 aeei"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
