@@ -1,4 +1,4 @@
-baseURL = "https://aeei.io"
+baseURL = "https://blog.aeei.io"
 title = "💩"
 theme = "etch"
 languageCode = "ko-KR"
@@ -7,6 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
+  description = "뿌직뿌직 똥싸개"
   copyright = "Copyright © 2021 aeei"
   dark = "auto"
   highlight = true
